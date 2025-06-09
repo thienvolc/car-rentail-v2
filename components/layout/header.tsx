@@ -109,10 +109,10 @@ export function Header() {
           ) : (
             /* Logged Out - Login/Register Buttons */
             <>
-              <Button variant='ghost' className='hidden sm:inline-flex' onClick={() => router.push('/login')}>
+              <Button variant='ghost' className='hidden sm:inline-flex' onClick={() => router.push('/renter/login')}>
                 Đăng nhập
               </Button>
-              <Button onClick={() => router.push('/register')}>Đăng ký</Button>
+              <Button onClick={() => router.push('/renter/register')}>Đăng ký</Button>
             </>
           )}
         </div>
