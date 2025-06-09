@@ -108,15 +108,6 @@ export function CarList({ searchParams }: CarListProps) {
                     fill
                     className='object-cover group-hover:scale-105 transition-transform duration-300'
                   />
-                  {/* Badges */}
-                  <div className='absolute top-3 left-3 flex flex-col gap-1'>
-                    {car.instant_booking && <Badge className='bg-green-500 hover:bg-green-600 text-xs'>Đặt ngay</Badge>}
-                    {car.delivery && (
-                      <Badge variant='secondary' className='text-xs'>
-                        Giao xe
-                      </Badge>
-                    )}
-                  </div>
                 </div>
               </div>
 

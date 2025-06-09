@@ -26,9 +26,6 @@ interface MockCar {
     district: string;
     address_details: string;
   };
-  delivery: boolean;
-  instant_booking: boolean;
-  features?: string[];
 }
 
 // Extended mock data based on car table schema
@@ -66,8 +63,6 @@ let mockCars: MockCar[] = [
       district: 'Quận 1',
       address_details: 'Trung tâm thành phố',
     },
-    delivery: true,
-    instant_booking: true,
   },
   {
     id: 2,
@@ -102,9 +97,6 @@ let mockCars: MockCar[] = [
       district: 'Quận 3',
       address_details: 'Gần sân bay Tân Sơn Nhất',
     },
-    features: ['Bluetooth', 'Camera lùi', 'Cảm biến lùi'],
-    delivery: false,
-    instant_booking: false,
   },
   {
     id: 3,
@@ -139,9 +131,6 @@ let mockCars: MockCar[] = [
       district: 'Quận 7',
       address_details: 'Khu vực Phú Mỹ Hưng',
     },
-    features: ['Bluetooth', 'Camera 360', 'Cảm biến lùi', 'Định vị GPS', 'Cruise Control'],
-    delivery: true,
-    instant_booking: true,
   },
   {
     id: 4,
@@ -177,9 +166,6 @@ let mockCars: MockCar[] = [
       district: 'Quận 2',
       address_details: 'Khu vực Thủ Đức',
     },
-    features: ['Bluetooth', 'Camera lùi'],
-    delivery: false,
-    instant_booking: true,
   },
   {
     id: 5,
@@ -215,9 +201,6 @@ let mockCars: MockCar[] = [
       district: 'Quận 5',
       address_details: 'Khu vực Chợ Lớn',
     },
-    features: ['Bluetooth', 'Camera 360', 'Cảm biến lùi', 'Định vị GPS'],
-    delivery: true,
-    instant_booking: false,
   },
   {
     id: 6,
@@ -252,9 +235,6 @@ let mockCars: MockCar[] = [
       district: 'Quận 10',
       address_details: 'Gần bệnh viện Nhi Đồng',
     },
-    features: ['Bluetooth', 'Camera lùi', 'Cảm biến lùi', 'Định vị GPS'],
-    delivery: true,
-    instant_booking: true,
   },
 ];
 
